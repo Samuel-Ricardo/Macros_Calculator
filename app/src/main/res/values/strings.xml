@@ -2,4 +2,6 @@
     <string name="app_name">MacrosCalculator</string>
     <string name="welcome">Olá :D</string>
     <string name="calc_message">Digite seus dados para calcular a sua dieta ;)</string>
+    <string name="created_by_samuel">Created By @Samuel</string>
+    <string name="lets_go">Vamo Nessa</string>
 </resources>

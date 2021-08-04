@@ -2,11 +2,35 @@ package com.study.kotlin.macroscalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val navigate_button:Button = findViewById<Button>(R.id.button_letsgo)
+        val credits = findViewById<TextView>(R.id.textView_credits)
+
+        navigate_button.setOnClickListener(View.OnClickListener {
+            nextPage();
+        })
+
+        credits.setOnClickListener { openLinkedIn() }
+    }
+
+    public fun openLinkedIn() {
+
+    }
+
+    public fun nextPage() {
+
+    }
+
+    fun openLinkedIn(view: View) {
+
     }
 }

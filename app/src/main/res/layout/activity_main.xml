@@ -71,11 +71,11 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_letsgo"
         android:layout_width="360dp"
         android:layout_height="55dp"
-        android:text="Vamo Nessa"
-        android:textSize="20dp"
+        android:text="@string/lets_go"
+        android:textSize="30sp"
         android:textColor="@color/button_text"
         android:background="@drawable/button_background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,13 +85,14 @@
         app:layout_constraintVertical_bias="0.455" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_credits"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Created By @Samuel"
+        android:text="@string/created_by_samuel"
+        android:onClick="openLinkedIn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button_letsgo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
