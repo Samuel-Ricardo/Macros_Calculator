@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val navigate_button:Button = findViewById<Button>(R.id.button_letsgo)
+        val navigateButton:Button = findViewById<Button>(R.id.button_letsgo)
         val credits = findViewById<TextView>(R.id.textView_credits)
 
-        navigate_button.setOnClickListener(View.OnClickListener {
+        navigateButton.setOnClickListener(View.OnClickListener {
             nextPage();
         })
 
