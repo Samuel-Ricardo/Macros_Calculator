@@ -5,4 +5,5 @@
     <string name="created_by_samuel">Created By @Samuel</string>
     <string name="lets_go">Vamo Nessa</string>
     <string name="calcTitle">Calculadora</string>
+    <string name="getKg">Digite seu peso em Kg:</string>
 </resources>
