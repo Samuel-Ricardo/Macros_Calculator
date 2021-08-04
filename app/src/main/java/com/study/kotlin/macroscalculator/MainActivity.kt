@@ -1,5 +1,7 @@
 package com.study.kotlin.macroscalculator
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -19,15 +21,17 @@ class MainActivity : AppCompatActivity() {
             nextPage();
         })
 
-        credits.setOnClickListener { openLinkedIn() }
+      //  credits.setOnClickListener { openLinkedIn() }
     }
-
+/*
     public fun openLinkedIn() {
 
     }
+*/
+    fun nextPage() {
 
-    public fun nextPage() {
-
+        val itent:Intent = Intent(this, Class.forName("UserDataActivity"));
+        startActivity(itent);
     }
 
     fun openLinkedIn(view: View) {
