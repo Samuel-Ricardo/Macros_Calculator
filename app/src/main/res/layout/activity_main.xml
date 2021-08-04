@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="@string/welcome"
             android:textColor="@color/text_color"
-            android:textFontWeight="Bold"
+            android:textFontWeight="700"
 
             android:textSize="24sp"
 
@@ -69,5 +69,29 @@
             app:layout_constraintVertical_bias="0.604" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:text="Vamo Nessa"
+        android:textSize="20dp"
+        android:textColor="@color/button_text"
+        android:background="@drawable/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created By @Samuel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
