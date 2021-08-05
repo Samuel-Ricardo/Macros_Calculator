@@ -6,4 +6,8 @@
     <string name="lets_go">Vamo Nessa</string>
     <string name="calcTitle">Calculadora</string>
     <string name="getKg">Digite seu peso em Kg:</string>
+    <string name="calcular">Calcular</string>
+    <string name="calories">Calorias:</string>
+    <string name="proteins">Proteinas:</string>
+    <string name="carbs">Carboidratos:</string>
 </resources>

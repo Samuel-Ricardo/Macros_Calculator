@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -58,6 +57,23 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/button_letsgo2"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/button_background"
+        android:text="@string/calcular"
+        android:textColor="@color/button_text"
+        android:onClick="calcDiet"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.455" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -92,7 +108,7 @@
                 android:layout_marginTop="4dp"
 
                 android:layout_marginBottom="10dp"
-                android:text="Calorias:"
+                android:text="@string/calories"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -138,7 +154,7 @@
                 android:layout_marginTop="4dp"
 
                 android:layout_marginBottom="5dp"
-                android:text="Proteinas:"
+                android:text="@string/proteins"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -186,7 +202,7 @@
                 android:layout_marginTop="4dp"
 
                 android:layout_marginBottom="5dp"
-                android:text="Carboidratos:"
+                android:text="@string/carbs"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
