@@ -4,6 +4,11 @@
     <!-- you can use any color you want I used here gray color-->
     <solid android:color="@color/white"/>
 
+    <stroke
+        android:width="2dp"
+        android:color="@color/black" >
+    </stroke>
+
     <corners
         android:radius="80dp"
         />
