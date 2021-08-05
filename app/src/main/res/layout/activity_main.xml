@@ -74,15 +74,16 @@
         android:id="@+id/button_letsgo"
         android:layout_width="360dp"
         android:layout_height="55dp"
-        android:text="@string/lets_go"
-        android:textSize="30sp"
-        android:textColor="@color/button_text"
         android:background="@drawable/button_background"
+        android:text="@string/lets_go"
+        android:textColor="@color/button_text"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-        app:layout_constraintVertical_bias="0.455" />
+        app:layout_constraintVertical_bias="0.397" />
 
     <TextView
         android:id="@+id/textView_credits"
@@ -90,6 +91,7 @@
         android:layout_height="wrap_content"
         android:text="@string/created_by_samuel"
         android:onClick="openLinkedIn"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

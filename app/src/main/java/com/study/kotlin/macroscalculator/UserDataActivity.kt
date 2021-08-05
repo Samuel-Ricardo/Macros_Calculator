@@ -1,5 +1,6 @@
 package com.study.kotlin.macroscalculator
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -28,6 +29,7 @@ class UserDataActivity: AppCompatActivity(){
 
     }
 
+    @SuppressLint("SetTextI18n")
     fun calcDiet(view:View) {
 
         val txtWeigth:String = editTextWeigth.getText().toString()
@@ -36,8 +38,15 @@ class UserDataActivity: AppCompatActivity(){
 
         val calories = weigth!!*39.5;
 
-        txtCalories.setText("${calories} Kcal")
-        txtProtein.setText("${caloriesToGrams((calories/100)*25)} g")
-        txtCarb.text = "${caloriesToGrams((calories/100)*50)} g"
+        txtCalories.setText("$calories Kcal")
+        txtProtein.setText("${caloriesToGrams(getPercentageOf(calories, 25.0))} g")
+        txtCarb.text = "${caloriesToGrams(getPercentageOf(calories, 50.0))} g"
+    }
+
+    private fun caloriesToGrams(calories:Double):Double {return calories / 4}
+
+    fun getPercentageOf(value:Double, percentage:Double):Double{
+
+        return (value/100)*percentage;
     }
 }
