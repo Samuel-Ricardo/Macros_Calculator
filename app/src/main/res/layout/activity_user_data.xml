@@ -108,8 +108,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:layout_marginTop="4dp"
+                android:layout_marginStart="-2dp"
 
+                android:layout_marginTop="4dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/calories"
                 android:textColor="@color/black"
@@ -125,12 +126,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="6dp"
                 android:text="2000 Kcal"
                 android:textColor="@color/colorSecondary"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.246"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView7"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>

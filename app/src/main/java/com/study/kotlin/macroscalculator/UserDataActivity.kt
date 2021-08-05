@@ -34,9 +34,10 @@ class UserDataActivity: AppCompatActivity(){
 
         val weigth = txtWeigth.toDoubleOrNull()
 
-        val calories =
+        val calories = weigth!!*39.5;
 
-        txtCalories.setText("${weigth!!*41} ~ ${weigth!!*50} Kcal")
-
+        txtCalories.setText("${calories} Kcal")
+        txtProtein.setText("${caloriesToGrams((calories/100)*25)} g")
+        txtCarb.text = "${caloriesToGrams((calories/100)*50)} g"
     }
 }
