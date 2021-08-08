@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 */
     fun nextPage() {
 
-        val itent:Intent = Intent(this, Class.forName("UserDataActivity"));
+        val itent:Intent = Intent(this, UserDataActivity::class.java);
         startActivity(itent);
     }
 

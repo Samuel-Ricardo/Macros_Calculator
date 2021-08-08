@@ -16,11 +16,11 @@ class UserDataActivity: AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_data)
 
-        val etxtWeigth = findViewById<EditText>(R.id.editTextWeigth)
+ //       val etxtWeigth = findViewById<EditText>(R.id.editTextWeigth)
 
-        val weigth: Double = etxtWeigth.getText() as Double
+//        val weigth: Double = etxtWeigth.getText() as Double
 
-        val btnCalc:Button = findViewById(R.id.btnCalc) as Button;
+ //       val btnCalc:Button = findViewById(R.id.btnCalc) as Button;
 
       //  val txtCalories = findViewById<TextView>(txtCalories1)
       //  val txtProtein = findViewById<TextView>(R.id.txtProtein)
@@ -29,7 +29,7 @@ class UserDataActivity: AppCompatActivity(){
 
     }
 
-    @SuppressLint("SetTextI18n")
+    //@SuppressLint("SetTextI18n")
     fun calcDiet(view:View) {
 
         val txtWeigth:String = editTextWeigth.getText().toString()
