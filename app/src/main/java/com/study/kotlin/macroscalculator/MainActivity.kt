@@ -2,6 +2,7 @@ package com.study.kotlin.macroscalculator
 
 import android.app.Activity
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -36,5 +37,7 @@ class MainActivity : AppCompatActivity() {
 
     fun openLinkedIn(view: View) {
 
+        val browser:Intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/samuel-ricardo-cabral/"))
+        startActivity(browser);
     }
 }
