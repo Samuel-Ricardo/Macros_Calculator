@@ -10,4 +10,7 @@
     <string name="calories">Calorias:</string>
     <string name="proteins">Proteinas:</string>
     <string name="carbs">Carboidratos:</string>
+    <string name="carbg">0g</string>
+    <string name="proteing">0g</string>
+    <string name="kcal">0 Kcal</string>
 </resources>
