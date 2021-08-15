@@ -8,3 +8,22 @@ Android application created from 0 with kotlin, calculation of macronutrients tr
 <br>
 
 __*You Can accsses the APK (Mobile Download File) for here: [Macros Calculator](https://github.com/Samuel-Ricardo/Macros_Calculator/tree/master/apk)*__
+
+
+## 🛠 Technologies and Concepts Studied
+
+- Kotlin
+- Android
+- Responsive
+- Vectorial Image SVG
+- Navigation between screens (Activity switching)
+- Open an internet link in a browser that the user chooses
+- Component Handling (Widgets)
+- Working with the possibility of null
+
+<br>
+
+- Best Practices, refactoring repeated code snippets into functions to make it easier to read, understand and facilitate code creation
+
+- Among Others...
+
