@@ -9,6 +9,8 @@ Android application created from 0 with kotlin, calculation of macronutrients tr
 
 __*You Can accsses the APK (Mobile Download File) for here: [Macros Calculator](https://github.com/Samuel-Ricardo/Macros_Calculator/tree/master/apk)*__
 
+__*Data for diet calculation were based on this site: [Feito de Iridium](https://www.feitodeiridium.com.br/como-calcular-sua-necessidade-de-macro-e-micronutrientes/)*__
+
 
 ## 🛠 Technologies and Concepts Studied
 
